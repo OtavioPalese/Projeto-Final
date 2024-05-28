@@ -1,0 +1,14 @@
+.cabeca-1{
+    height: 100px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabeca-1 img{
+    height: 100%;
+    margin-left: 100px;
+}
+.cabeca-1 input{
+
+}
