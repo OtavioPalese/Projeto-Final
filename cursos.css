@@ -1,4 +1,6 @@
-
+body {
+    background-color: #000000;
+}
 .gallery {
     position: absolute;
     top: 50%;
@@ -105,7 +107,7 @@
 }
 
 .bg-2 {
-    background-image: url(Carrossel/3271d323c5d3c1fd48285f216cf5814f.jpg);
+    background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
 }
 
 .bg-3 {
