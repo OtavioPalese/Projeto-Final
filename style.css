@@ -1,18 +1,62 @@
-.cabeca-1{
-    height: 100px;  
+body {
+    background-color: #ffffff;
+}
+
+.cabeca-1 {
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #D9D9D9;
 }
-.cabeca-1 img{
-    height: 100%;
-    margin-left: 100px;
-}
-.cabeca-1 input{
 
+.cabeca-1 img {
+    height: 100%;
 }
-.pesquisa{
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+    margin-left: 150px;
+}
+
+.cabeca-1 input {
+    background-color: #848484;
+    height: 20px;
+    border: #848484;
+    width: 90%;
+    color: black;
+}
+.cabeca-1 input::placeholder {
+    color: black;
+}
+
+.pesquisa {
     display: flex;
-    
+    background-color: #848484;
+    height: 40px;
+    align-items: center;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.pesquisa img {
+    height: 25px;
+    width: 50px;
+}
+
+.conf-perf {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.conf-perf img {
+    height: 40%;
+    padding: 15px;
 }
