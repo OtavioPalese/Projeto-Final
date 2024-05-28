@@ -1,0 +1,15 @@
+.texto{
+    display: flex;
+    justify-content: center;
+    border: solid 2px #000;
+    padding: 35px;
+    font-size: xx-large;
+
+}
+
+.caixa{
+    border: solid 3px #000;
+    border-radius: 10px;
+display: flex;
+align-items: center;
+}
