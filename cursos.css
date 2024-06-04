@@ -1,16 +1,17 @@
 body {
-    background-color: #000000;
+    background-color: black;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+}
 
-  /* Gallery */
-  
-  .gallery {
+
+/* Gallery */
+
+.gallery {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -18,10 +19,10 @@ body {
     height: 90%;
     max-height: 28vw;
     overflow: hidden;
-  }
-  
-  .gallery:before,
-  .gallery:after {
+}
+
+.gallery:before,
+.gallery:after {
     display: block;
     content: "";
     position: absolute;
@@ -29,27 +30,17 @@ body {
     width: 20%;
     height: 100%;
     z-index: 3;
-  }
-  
-  .gallery:before {
-    left: 0;
-    background:  linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-  }
-  
-  .gallery:after {
-    right: 0;
-    background:  linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-  }
-  
-  .gallery__stream {
+}
+
+.gallery__stream {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
     height: 100%;
-  }
-  
-  .gallery__item {
+}
+
+.gallery__item {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -58,42 +49,42 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 5px;
-  }
-  
-  .gallery__item:nth-child(1) {
+}
+
+.gallery__item:nth-child(1) {
     left: 0;
     z-index: 1;
     transform: translateX(-100%) scale(.8);
-  }
-  
-  .gallery__item:nth-child(2) {
+}
+
+.gallery__item:nth-child(2) {
     left: 0;
     z-index: 2;
     transform: translateX(-50%) scale(.8);
-  }
-  
-  .gallery__item:nth-child(3) {
+}
+
+.gallery__item:nth-child(3) {
     left: 50%;
     z-index: 4;
     transform: translateX(-50%) scale(1);
-  }
-  
-  .gallery__item:nth-child(4) {
+}
+
+.gallery__item:nth-child(4) {
     left: 100%;
     z-index: 2;
     transform: translateX(-50%) scale(.8);
-  }
-  
-  .gallery__item:nth-child(n+5) {
+}
+
+.gallery__item:nth-child(n+5) {
     left: 100%;
     z-index: 1;
     transform: scale(.8);
-  }
-  
-  /* Controllers */
-  
-  .gallery__prev,
-  .gallery__next {
+}
+
+/* Controllers */
+
+.gallery__prev,
+.gallery__next {
     position: absolute;
     top: 50%;
     z-index: 4;
@@ -101,42 +92,42 @@ body {
     height: 100%;
     transform: translateX(-50%) translateY(-50%) scale(.8);
     cursor: pointer;
-  }
-  
-  .gallery__prev {
+}
+
+.gallery__prev {
     left: 0;
-  }
-  
-  .gallery__next {
+}
+
+.gallery__next {
     left: 100%;
-  }
-  
-  /* Backgrounds */
-  
-  .bg-1 {
-    background-image: url(Carrossel/648438c52f0a3ae3b66b43cdbf883e97.jpg);
-  }
-  
-  .bg-2 {
-    background-image: url(Carrossel/8bc5309dc6208d90a929981d80be40cf.jpg);
-  }
-  
-  .bg-3 {
-    background-image: url(Carrossel/95598390b131699cae2d734f8a981aca.jpg);
-  }
-  
-  .bg-4 {
-    background-image: url(Carrossel/97a7a53cfe7dbcb1eb73cb5b0f5bdb18.jpg);
-  }
-  
-  .bg-5 {
-    background-image: url(Carrossel/9ed03b73f3187a36845aed2b0b0e942d.jpg);
-  }
-  
-  .bg-6 {
-    background-image: url(Carrossel/c9590049081498dca290183b7847f51d.jpg);
-  }
-  
-  .bg-7 {
-    background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
-  }
+}
+
+/* Backgrounds */
+
+.bg-1 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487589/star-wars-1_kgt8dr.jpg);
+}
+
+.bg-2 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-2_tgzyxe.jpg);
+}
+
+.bg-3 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-3_bkcmeb.jpg);
+}
+
+.bg-4 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-4_opgyza.jpg);
+}
+
+.bg-5 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-5_ulc9tx.jpg);
+}
+
+.bg-6 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-6_la8whc.jpg);
+}
+
+.bg-7 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-7_l3fcor.jpg);
+}
