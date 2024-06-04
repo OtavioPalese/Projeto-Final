@@ -127,3 +127,14 @@ background-color: rgb(0, 0, 0);
 .bg-7 {
     background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
 }
+.fundo-inicio{
+    margin: 30px;
+    background-color: white;
+}
+.titulo{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 40px;
+}
