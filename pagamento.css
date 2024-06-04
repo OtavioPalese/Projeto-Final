@@ -1,10 +1,11 @@
-body{
+body {
     flex-wrap: wrap;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
-
+    margin-top: 50px;
 }
 
 .texto {
@@ -13,7 +14,7 @@ body{
     border: solid 2px #000;
     padding: 35px;
     font-size: xx-large;
-
+    font-family: "Oswald", sans-serif;
 }
 
 .caixa {
@@ -23,7 +24,8 @@ body{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    margin-bottom: 6px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .info-pessoa {
@@ -32,37 +34,81 @@ body{
     text-align: center;
     flex-direction: column;
     align-items: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.info-pessoa label {
+    font-size: x-large;
+    margin-top: 30px;
 }
 
 .escolha {
-    
-    display:flex;
-    align-items:center;
+
+    display: flex;
+    align-items: center;
     flex-direction: column;
 
 }
-#seleciona{
+
+#seleciona {
+    border-radius: 14px;
     padding: 6px;
+    width: 400px;
+    height: 60px;
 }
 
-.forma-de-pagamento{
-    display:flex;
-    align-items:center;
-    justify-content:space-around;
-    margin-left:30px;
+.forma-de-pagamento {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
     flex-direction: column;
     align-items: center;
 }
-.promo{
+
+.promo {
     display: flex;
     align-items: center;
     align-content: space-around;
 }
-.pro{
+.pro:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.pro {
+     
     text-align: center;
 }
-#titulo{
+.titulo{
+   margin-top: 30px;
+   margin-bottom: 50px;
+
+}
+#titulo {
+    margin-bottom: 70px;
+    font-family: "Oswald", sans-serif;
     font-size: xx-large;
-    margin: 15px ;
+    margin: 15px;
     margin-bottom: 40px;
+}
+#promocoes{
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+    margin: 15px;
+    margin-bottom: 70px;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+}
+
+#desc {
+    font-family: "Oswald", sans-serif;
+}
+.final{
+    text-align: center;
+    display: flex;
+    margin-top: 120px;
+    background-color: #000 ;
+    height: 120px;
+    color: #ffff;
 }
