@@ -24,6 +24,7 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
+   
     margin-bottom: 15px;
     margin-top: 10px;
 }
@@ -111,4 +112,13 @@ body {
     background-color: #000 ;
     height: 120px;
     color: #ffff;
+}
+ .info-primeira{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+.campos{
+    margin-left: 25px;
 }
