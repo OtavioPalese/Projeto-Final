@@ -1,12 +1,8 @@
 body {
-    background-color: black;
+background-color: rgb(0, 0, 0);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 /* Gallery */
@@ -105,29 +101,29 @@ body {
 /* Backgrounds */
 
 .bg-1 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487589/star-wars-1_kgt8dr.jpg);
+    background-image: url(Carrossel/648438c52f0a3ae3b66b43cdbf883e97.jpg);
 }
 
 .bg-2 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-2_tgzyxe.jpg);
+    background-image: url(Carrossel/8bc5309dc6208d90a929981d80be40cf.jpg);
 }
 
 .bg-3 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-3_bkcmeb.jpg);
+    background-image: url(Carrossel/95598390b131699cae2d734f8a981aca.jpg);
 }
 
 .bg-4 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-4_opgyza.jpg);
+    background-image: url(Carrossel/97a7a53cfe7dbcb1eb73cb5b0f5bdb18.jpg);
 }
 
 .bg-5 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-5_ulc9tx.jpg);
+    background-image: url(Carrossel/9ed03b73f3187a36845aed2b0b0e942d.jpg);
 }
 
 .bg-6 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-6_la8whc.jpg);
+    background-image: url(Carrossel/c9590049081498dca290183b7847f51d.jpg);
 }
 
 .bg-7 {
-    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-7_l3fcor.jpg);
+    background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
 }
