@@ -21,7 +21,7 @@
             </div>
             <div class="pesquisa">
                 <img src="icones/lupa 1.png" alt="">
-                <input type="text" name="" id="" placeholder="Procure seu curso ideal aqui">
+                <input type="search" name="" id="pesquisa" placeholder="Procure seu curso ideal aqui">
             </div>
             <div class="conf-perf">
                 <img src="icones/configuracoes png projeto final (1).png" alt="">
@@ -31,45 +31,62 @@
         <section class="cabeca-2">
             <div class="menu">
                 <div class="menu_link_active">
-                    <a href="cursos.html">Cursos</a>
-                    <img src="icones/seta.png" alt="img">
-                </div>
-                <div class="menu_link">
-                    <a href="pacotes.html">Pacotes</a>
-                    <img src="icones/seta.png" alt="img">
-                </div>
-                <div class="menu_link">
-                    <a href="profissionais.html">Profissionais</a>
-                    <img src="icones/seta.png" alt="img">
-                </div>
-                <div class="menu_link">
-                    <a href="pagamentos.html">Pagamentos</a>
-                    <img src="icones/seta.png" alt="img">
-                </div>
-                <div class="menu_link">
-                    <a href="sobre.html">Sobre Nós</a>
-                    <img src="icones/seta.png" alt="img">
-                </div>
+                <a href="cursos.html">Cursos</a>
+                <img src="icones/seta.png" alt="">
+            </div>
+            <div class="menu_link">
+                <a href="pacotes.html">Pacotes</a>
+                <img src="icones/seta.png" alt="">
+            </div>
+            <div class="menu_link">
+                <a href="profissionais.html">Profissionais</a>
+                <img src="icones/seta.png" alt="">
+            </div>
+            <div class="menu_link">
+                <a href="pagamentos.html">Pagamentos</a>
+                <img src="icones/seta.png" alt="">
+            </div>
+            <div class="menu_link">
+                <a href="sobre.html">Sobre Nós</a>
+                <img src="icones/seta.png" alt="">
+            </div>
             </div>
         </section>
     </header>
     <main>
-        <div class="gallery">
-            <div class="gallery__prev"></div>
-            <div class="gallery__next"></div>
-            <div class="gallery__stream">
-                <div class="gallery__item bg-1"></div>
-                <div class="gallery__item bg-2"></div>
-                <div class="gallery__item bg-3"></div>
-                <div class="gallery__item bg-4"></div>
-                <div class="gallery__item bg-5"></div>
-                <div class="gallery__item bg-6"></div>
-                <div class="gallery__item bg-7"></div>
+        <div class="carrossel">
+            <div class="imagens-carrossel" id="imagens-carrossel">
+              <img
+                src="Carrossel/0bc26c311e35b6d8d2cd5c5c4d84318b.jpg"
+                alt="Imagem 1"
+              />
+              <img
+                src="Carrossel/3271d323c5d3c1fd48285f216cf5814f.jpg"
+                alt="Imagem 2"
+              />
+              <img
+                src="Carrossel/3ea2135d24acdc5a4ec96834662c7b0a.jpg"
+                alt="Imagem 3"
+              />
+              <img
+                src="Carrossel/51d68354504fa07d012c2d1dde8f14cc.jpg"
+                alt="Imagem 4"
+              />
             </div>
-        </div>
-        <script src="script.js"></script>
-    </main>
-
+            <button class="anterior" onclick="moverCarrossel(-1); resetAutoSlide();">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/189/189254.png"
+                alt="Anterior"
+              />
+            </button>
+            <button class="proximo" onclick="moverCarrossel(1); resetAutoSlide();">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/189/189253.png"
+                alt="Próximo"
+              />
+            </button>
+          </div>
+          <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,38 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./pagamento.css">
     <link rel="stylesheet" href="reset.css">
-    <!-- <link rel="stylesheet" href="pagamento.css"> -->
+    <link rel="stylesheet" href="pagamento.css">
     <title>Pagamento / BoxCourseAgency</title>
 </head>
+
 <body>
     <header>
         <section class="cabeca-1">
             <div class="logo">
-            <img src="_af67f5e2-2a4c-4c3a-bfb0-13601798e65e.png" alt="logo-do-BoxCourseAgency">
-        </div>
+                <img src="icones/_af67f5e2-2a4c-4c3a-bfb0-13601798e65e.png" alt="logo-do-BoxCourseAgency">
+            </div>
             <div class="pesquisa">
-                <img src="lupa 1.png" alt="">
+                <img src="icones/lupa 1.png" alt="">
                 <input type="text" name="" id="" placeholder="Procure seu curso ideal aqui">
             </div>
             <div class="conf-perf">
-            <img src="configuracoes png projeto final (1).png" alt="">
-            <img src="perfil projeto final (2).png" alt="">
-        </div>
+                <img src="icones/configuracoes png projeto final (1).png" alt="">
+                <img src="icones/perfil projeto final (2).png" alt="">
+            </div>
         </section>
         <section class="cabeca-2">
-            <nav class="menu">
-                <a class="active" href="cursos.html">Cursos</a>
-                <a href="sobre.html">Pacotes</a>
-                <a href="carros.html">Extras</a>
-                <a href="carros.html">Pagamentos</a>
-                <a href="carros.html">Sobre Nós</a>
-            </nav>
+            <div class="menu">
+                <div class="menu_link">
+                    <a href="cursos.html">Cursos</a>
+                    <img src="icones/seta.png" alt="">
+                </div>
+                <div class="menu_link">
+                    <a href="pacotes.html">Pacotes</a>
+                    <img src="icones/seta.png" alt="">
+                </div>
+                <div class="menu_link">
+                    <a href="extra.html">Extras</a>
+                    <img src="icones/seta.png" alt="">
+                </div>
+                <div class="menu_link_active">
+                    <a href="pagamento.html">Pagamentos</a>
+                    <img src="icones/seta.png" alt="">
+                </div>
+                <div class="menu_link">
+                    <a href="sobre.html">Sobre Nós</a>
+                    <img src="icones/seta.png" alt="">
+                </div>
+            </div>
         </section>
     </header>
-    
+    <div class="texto">
+        <h1>Preencha o formulário e confira as formas de pagamento</h1>
+    </div>
+    <div class="container">
+        <div class="info-pessoa">
+            <label for="nome completo"></label> Insira aqui seu Nome completo</label>
+            <input type="text" class="caixa">
+
+            <label for="nome completo"></label> Insira aqui seu Email </label>
+            <input type="text" class="caixa">
+
+            <label for=" telefone">Insira seu telefone</label>
+            <input type="text" class="caixa">
+
+            <label for="endereço">Insira seu endereço</label>
+            <input type="text" class="caixa">
+
+            <label for="curso escolhido">Insira o curso escolhido</label>
+            <input type="text" class="caixa">
+        </div>
+        <div class="forma-de-pagamento">
+            <div class="escolha">
+                <h1  id="titulo">Escolha a forma de pagamento</h1>
+                <select name="" id="seleciona">
+                    <option value="">Escolha seu Pagamento</option>
+                    <option value="">Cartão de Crédito</option>
+                    <option value="">Cartão de Débito</option>
+                    <option value="">PIX</option>
+                    <option value="">Boleto</option>
+                </select>
+            </div>
+            <h1 id="titulo">Confira nossas promoções!</h1>
+            <div class="promo">
+                <div class="pro">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s" alt="">
+                <p>descirção</p>
+            </div>
+                <div class="pro">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s" alt="">
+                <p>descirção</p>
+            </div>
+                <div class="pro">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s" alt="">
+                <p>descirção</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
