@@ -1,0 +1,129 @@
+body {
+background-color: rgb(0, 0, 0);
+}
+
+
+
+
+/* Gallery */
+
+.gallery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    max-height: 28vw;
+    overflow: hidden;
+}
+
+.gallery:before,
+.gallery:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    z-index: 3;
+}
+
+.gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__item {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+}
+
+.gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+}
+
+.gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+}
+
+/* Controllers */
+
+.gallery__prev,
+.gallery__next {
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    width: 50%;
+    height: 100%;
+    transform: translateX(-50%) translateY(-50%) scale(.8);
+    cursor: pointer;
+}
+
+.gallery__prev {
+    left: 0;
+}
+
+.gallery__next {
+    left: 100%;
+}
+
+/* Backgrounds */
+
+.bg-1 {
+    background-image: url(Carrossel/648438c52f0a3ae3b66b43cdbf883e97.jpg);
+}
+
+.bg-2 {
+    background-image: url(Carrossel/8bc5309dc6208d90a929981d80be40cf.jpg);
+}
+
+.bg-3 {
+    background-image: url(Carrossel/95598390b131699cae2d734f8a981aca.jpg);
+}
+
+.bg-4 {
+    background-image: url(Carrossel/97a7a53cfe7dbcb1eb73cb5b0f5bdb18.jpg);
+}
+
+.bg-5 {
+    background-image: url(Carrossel/9ed03b73f3187a36845aed2b0b0e942d.jpg);
+}
+
+.bg-6 {
+    background-image: url(Carrossel/c9590049081498dca290183b7847f51d.jpg);
+}
+
+.bg-7 {
+    background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
+}
