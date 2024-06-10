@@ -1,7 +1,11 @@
 body {
 background-color: rgb(0, 0, 0);
+
 }
 
+html{
+    border: solid blue;
+}
 
 
 
@@ -127,14 +131,39 @@ background-color: rgb(0, 0, 0);
 .bg-7 {
     background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
 }
-.fundo-inicio{
-    margin: 30px;
-    background-color: white;
-}
+
 .titulo{
     font-family: "Oswald", sans-serif;
-    font-size: 30px;
-    background-color: white;
+    font-size: 45px;
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.novos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.novo-card{
+    background-color: rgb(255, 255, 255);
+width: 500px;
+height: 500px;
+border: solid rgba(0, 0, 0, 0.3) 1px;
+}
+.novo-card img{
+width: 100%;
+}
+.novo-card p{
+    margin: 10px;
+    font-size: 17px;
+}
+.novo-card .preco{
+text-align: center;
+}
+.novo-card a{
+    text-align: center;
+
+}
+.novo-card:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
