@@ -1,37 +1,22 @@
 body {
-background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
 }
-
-
-
 
 /* Gallery */
-
 .gallery {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: relative;
     width: 100%;
-    height: 90%;
-    max-height: 28vw;
+    height: 500px;
     overflow: hidden;
-}
-
-.gallery:before,
-.gallery:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 20%;
-    height: 100%;
-    z-index: 3;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .gallery__stream {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width: 100%;
     height: 100%;
 }
@@ -50,13 +35,13 @@ background-color: rgb(0, 0, 0);
 .gallery__item:nth-child(1) {
     left: 0;
     z-index: 1;
-    transform: translateX(-100%) scale(.8);
+    transform: translateX(-100%) scale(0.8);
 }
 
 .gallery__item:nth-child(2) {
     left: 0;
     z-index: 2;
-    transform: translateX(-50%) scale(.8);
+    transform: translateX(-50%) scale(0.8);
 }
 
 .gallery__item:nth-child(3) {
@@ -68,17 +53,16 @@ background-color: rgb(0, 0, 0);
 .gallery__item:nth-child(4) {
     left: 100%;
     z-index: 2;
-    transform: translateX(-50%) scale(.8);
+    transform: translateX(-50%) scale(0.8);
 }
 
-.gallery__item:nth-child(n+5) {
+.gallery__item:nth-child(n + 5) {
     left: 100%;
     z-index: 1;
-    transform: scale(.8);
+    transform: scale(0.8);
 }
 
 /* Controllers */
-
 .gallery__prev,
 .gallery__next {
     position: absolute;
@@ -86,7 +70,7 @@ background-color: rgb(0, 0, 0);
     z-index: 4;
     width: 50%;
     height: 100%;
-    transform: translateX(-50%) translateY(-50%) scale(.8);
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
     cursor: pointer;
 }
 
@@ -99,7 +83,6 @@ background-color: rgb(0, 0, 0);
 }
 
 /* Backgrounds */
-
 .bg-1 {
     background-image: url(Carrossel/648438c52f0a3ae3b66b43cdbf883e97.jpg);
 }
@@ -127,12 +110,15 @@ background-color: rgb(0, 0, 0);
 .bg-7 {
     background-image: url(Carrossel/f7b33788374c7f91a09b8b4ed753c188.jpg);
 }
-.fundo-inicio{
+
+.fundo-inicio {
     margin: 30px;
     background-color: white;
+    position: relative;
+    z-index: 1;
 }
-.titulo{
-    font-family: "Oswald", sans-serif;
+
+.titulo {
     font-size: 30px;
     background-color: white;
     margin-left: 80px;
