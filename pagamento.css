@@ -1,141 +1,351 @@
-body {
-    flex-wrap: wrap;
+.azul {
+    color: blue;
+}
+
+.titulo-maior {
+    margin: 25px 0px 10px 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+}
+
+#entrar {
+    color: blue;
+}
+
+.politica-azul {
+    text-decoration: underline blue;
+    color: blue;
+}
+
+.caixa {
+    padding: 10px;
+    border-color: #63d0ff;
+    border-radius: 5px;
+}
+
+#dd {
+    padding: 10px;
+    margin-left: 20px;
+    border: solid 2px #63d0ff;
+    border-radius: 5px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
-.texto {
+.mae {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#titulo-email {
+    margin: 15px 0px 12px 0px;
+}
+
+#titulo-telefone {
+
+    margin: 15px 0px 12px 15px;
+}
+
+#titulo-numero {
+    margin: 0px 0px 10px 0px;
+}
+
+.primeira-fila {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-telefone {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+}
+
+.telefo {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    width: 180px;
+    height: 40px;
+    display: flex;
+}
+
+.imagem-pagamento {
+    border-radius: 5px;
+    border: solid 3px blue;
+    width: 180px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.terceira-fila {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.numero-cartao {
+    margin: 20px 0px 10px 0px;
+}
+
+.my input {
+    width: 80px;
+    height: 15px;
+}
+
+.my {
+    margin: 10px 20px 0px 10px;
+}
+
+.myy-titulo {
+    font-family: "Oswald", sans-serif;
+    margin: 0px 0px 10px 0px;
+    ;
+}
+
+.cvc input {
+    width: 60px;
+    height: 15px;
+}
+
+.cvc-titulo {
+    font-family: "Oswald", sans-serif;
+    margin: 0px 16px 10px 10px;
+}
+
+.cvc {
+    margin: 10px 20px 0px 0px;
+
+}
+
+.quarta-fila {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#numero-titular {
+    margin: 30px 0px 10px 0px;
+}
+
+.titular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titular h1 {
+    margin: 0px 0px 0px 0px;
+}
+
+#salvar {
+    color: blue;
+    height: 30px;
+    width: 30px;
+    margin: 0px 12px 0px 40px;
+}
+
+.container-baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.mae-baixo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formas-de-pagamentos img {
+    margin: 0px 10px 0px 10px;
+}
+
+.politica-privacidade {
     display: flex;
     justify-content: center;
-    border: solid 2px #000;
-    padding: 35px;
-    font-size: xx-large;
-    font-family: "Oswald", sans-serif;
+    align-items: center;
 }
 
-.caixa {
-    padding: 3px;
-    font-size: larger;
-    border: solid 2px #000;
-    border-radius: 10px;
+#botao-politica {
+    height: 30px;
+    width: 30px;
+}
+
+.finalizar {
+    width: 350px;
+    height: 55px;
+    margin-top: 35px;
+    border: solid #63d0ff 2px;
+    border-radius: 24px;
     display: flex;
     align-items: center;
-   
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
+    justify-content: center;
 
-.info-pessoa {
-    margin-left: 25px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Oswald", sans-serif;
-}
-
-.info-pessoa label {
-    font-size: x-large;
-    margin-top: 30px;
-}
-
-.escolha {
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 
 }
 
-#seleciona {
-    border-radius: 14px;
-    padding: 6px;
-    width: 400px;
-    height: 60px;
-}
-
-.forma-de-pagamento {
-    font-family: "Oswald", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 30px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.promo {
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-}
-.pro:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-.pro {
-     
-    text-align: center;
-}
-.titulo{
-   margin-top: 30px;
-   margin-bottom: 50px;
-
-}
-#titulo {
-    margin-bottom: 70px;
-    font-family: "Oswald", sans-serif;
-    font-size: xx-large;
-    margin: 15px;
-    margin-bottom: 40px;
-}
-#promocoes{
-    font-family: "Oswald", sans-serif;
-    font-size: xx-large;
-    margin: 15px;
-    margin-bottom: 70px;
-    height: 120px;
-    width: 200px;
-    text-align: center;
-}
-
-#desc {
-    font-family: "Oswald", sans-serif;
-}
-
- .info-primeira{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-} 
-.campos{
+#final {
     margin-left: 25px;
 }
-.popular{
-    margin-top: 20px;
-}
-.popular p{
-    margin-bottom: 10px;
-    font-size:20px;
-}
-.categorias{
-    margin-top: 20px;
-}
-.categorias p{
-    
-    margin-bottom: 10px;
-    font-size:20px;
-}   
-.container-rodape{
-    background-color: #D9D9D9 ;
+
+.container-lado {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
-    margin-top: 50px;
-    font-family: "Oswald", sans-serif; 
+    flex-direction: column;
+}
 
+.campo-preco {
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    border: solid 3px #63d0ff;
+
+}
+
+.detalhes-cursos {
+    font-family: "Oswald", sans-serif;
+    margin-right: 15px;
+}
+
+.preco-esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem-curso {
+    height: 100px;
+    width: 200px;
+    margin: 20px 0px 20px 0px;
+}
+
+.preco-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+}
+
+#preco-maior {
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+}
+
+.manutencao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.preco-manutencao {
+    font-family: "Kanit", sans-serif;
+    margin-left: 100px;
+}
+#manutencao {
+    font-family: "Oswald", sans-serif;
+}
+#codigo-promo {
+    border-bottom: solid 3px #848484;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.total {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+    align-items: center;
+
+}
+
+.preco-menor {
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 13px;
+}
+
+#licenca {
+    font-family: "Oswald", sans-serif;
+    margin: 0px 0px 15px 10px;
+}
+
+
+
+.titulo-oswald {
+    font-family: "Oswald", sans-serif;
+
+}
+
+.formas {
+    display: flex;
+    gap: 16px;
+}
+
+.finalizar-compra {
+    background-color: #63d0ff;
+    width: 600px;
+    height: 55px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #63d0ff;
+    border-radius: 5px;
+}
+
+.carrinho {
+    margin-left: 30px;
+    height: 50px;
+    width: 55px;
+}
+
+.texto-final {
+    font-size: 25px;
+    margin-left: 35px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.container-final {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formas-de-pagamentos {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 15px 0px 145px;
+    align-items: center;
+
+}
+
+.formas-de-pagamentos img {
+    height: 70px;
+    width: 100px;
+}
+.total-pagamento{
+    margin-right: 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
 }

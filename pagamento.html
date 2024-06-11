@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Pagamento / BoxCourseAgency</title>
 </head>
 
@@ -36,11 +39,11 @@
                     <img src="icones/seta.png" alt="">
                 </div>
                 <div class="menu_link">
-                    <a href="pacotes.html">Pacotes</a>
+                    <a href="cursos.html">Cursos</a>
                     <img src="icones/seta.png" alt="">
                 </div>
                 <div class="menu_link">
-                    <a href="profissionais.html">Central de Ajuda</a>
+                    <a href="central.html">Central de Ajuda</a>
                     <img src="icones/seta.png" alt="">
                 </div>
                 <div class="menu_link_active">
@@ -55,128 +58,204 @@
         </section>
     </header>
 
+    <section class="container">
+        <div class="mae">
+            <div class="cabeca">
+                <h1 class="titulo-maior"><strong class="azul">1.</strong> Detalhes do Contato</h1>
+                <p class="titulo-oswald">Para usar métodos de pagamento ou bônus salvos, por favor <strong
+                        id="entrar">Entrar</strong></p>
+            </div>
 
 
-    <div class="container">
-        <div class="info-pessoa">
-            <h1 class="titulo">1. Detalhes do Contato</h1>
-            <div class="info-primeira">
-                <div class="campos">
-                    <label for="nome completo"> Insira aqui seu Email </label>
-                    <input type="text" class="caixa">
+            <div class="primeira-fila">
+                <div class="container-email">
+                    <p class="titulo-oswald" id="titulo-email">Seu Email</p>
+                    <div>
+                        <label for="nome completo"> </label>
+                        <input type="search" class="caixa">
+                    </div>
                 </div>
 
-                <div class="campos">
-                    <select name="" id="dd">
-                        <option value="">+55 Brasil</option>
-                        <option value="">+1</option>
-                        <option value="">+86</option>
-                    </select>
-                    <label for=" telefone">Insira seu telefone</label>
-                    <input type="text" class="caixa">
+                <div class="container-telefone">
+                    <p class="titulo-oswald" id="titulo-telefone">Telefone</p>
+                    <div class="telefo">
+                        <select name="" id="dd">
+                            <option value="">+55 Brasil</option>
+                            <option value="">+1 EUA</option>
+                            <option value="">+86 China</option>
+                        </select>
+
+                        <label for=" telefone"></label>
+                        <input type="number" class="caixa">
+                    </div>
                 </div>
 
             </div>
-            <label for="endereço">Insira seu endereço</label>
-            <input type="text" class="caixa">
+            <div>
+                <h1 class="titulo-maior"><strong class="azul">2.</strong> Selecione a forma de Pagamento</h1>
+            
+            </div>
+            <div class="formas">
 
-            <label for="curso escolhido">Insira o curso escolhido</label>
-            <input type="text" class="caixa">
+                <a class="botao" href="#">
+                    <img class="imagem-pagamento" src="./fotos pagamento/picpay.jpeg"
+                        alt="PayPal">
+                </a>
+
+                <a class="botao" href="#">
+                    <img class="imagem-pagamento" src="./fotos pagamento/stripe.jpeg"
+                        alt="Stripe">
+                </a>
+            </div>
+            <div class="terceira-fila">
+                <div class="numero-cartao">
+                    <p class="titulo-oswald" id="titulo-numero">Numero do Cartão</p>
+                    <label for=""></label>
+                    <input type="text" class="caixa">
+                </div>
+                <div class="my">
+                    <p class="myy-titulo">MM/YY</p>
+                    <label for=""></label>
+                    <input type="number" name="" id="" class="caixa">
+                </div>
+                <div class="cvc">
+                    <p class="cvc-titulo">CVC</p>
+                    <label for=""></label>
+                    <input type="number" name="" id="cv" class="caixa">
+                </div>
+            </div>
+            <p class="titulo-oswald" id="numero-titular">Número do Titular</p>
+            <div class="quarta-fila">
+                <div class="titular">
+
+                    <label for=""></label>
+                    <input type="text" name="" id="" class="caixa">
+                    <input type="checkbox" name="Salvar Cartão" id="salvar" class="caixa">
+                    <p class="titulo-oswald">Salvar Cartão</p>
+                </div>
+            </div>
         </div>
-        <div class="forma-de-pagamento">
-            <div class="escolha">
-                <h1 id="titulo">Escolha a forma de pagamento</h1>
-                <select name="" id="seleciona">
-                    <option value="">Escolha seu Pagamento</option>
-                    <option value="">Cartão de Crédito</option>
-                    <option value="">Cartão de Débito</option>
-                    <option value="">PIX</option>
-                    <option value="">Boleto</option>
-                </select>
-            </div>
-            <div class="titulo">
+        <div class="container-lado">
+
+            <div class="campo-preco">
+                <div class="preco-esquerda">
+                    <img id="imagem-curso" src="" alt="seu curso">
+                    <p id="licenca">Tipo de Licença</p>
+                </div>
+                <div class="preco-direita">
+                    <p class="detalhes-cursos">Detalhes do curso escolhido</p>
+                    <h3 class="preco-menor">R$XXX,XX</h3>
+                </div>
 
             </div>
-            <h1 class="titulo" id="promocoes">Confira nossas promoções!</h1>
-            <div class="promo">
+            <div>
+                <h3 class="azul">Tem código promocional?</h3>
+                <p id="codigo-promo"></p>
+            </div>
+            <div class="manutencao">
+                <p id="manutencao">Taxa de Manutenção</p>
+                <h3 class="preco-manutencao">R$XXX,XX</h3>
+            </div>
+            <div class="total">
+                <h1 class="total-pagamento">Total: </h1>
+                <h3 id="preco-maior">R$XXX,XX</h3>
+            </div>
+        </div>
 
-                <div class="pro">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s"
-                        alt="">
-                    <p id="desc">descirção</p>
+
+    </section>
+    <section class="container-baixo">
+        <div class=" mae-baixo">
+            <div class="formas-de-pagamentos">
+                <h1 class="titulo-oswald">Nós aceitamos:</h1>
+                <img src="./fotos pagamento/visa.jpeg" alt="visa">
+                <img src="./fotos pagamento/mastercard.png" alt="mastercard">
+                <img src="./fotos pagamento/american.jpeg" alt="american">
+                <img src="./fotos pagamento/discover.jpeg" alt="discover">
+                <img src="./fotos pagamento/jcb.jpeg" alt="jcb">
+                <img src="./fotos pagamento/caixa.jpeg" alt="caixa">
+            </div>
+            <div>
+                <p>
+
+                </p>
+                <div class="politica-privacidade">
+                    <input type="checkbox" name="" id="botao-politica" class="caixa">
+                    <p>Concordo que meus dados serão armazenados e tratados de acordo com a <strong
+                            class="politica-azul">Política
+                            de Privacidade</strong> e <strong class="politica-azul">Termos de Uso</strong></p>
                 </div>
-                <div class="pro">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s"
-                        alt="">
-                    <p>descirção</p>
-                </div>
-                <div class="pro">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2gM6l4mnVMLFc-v5x7AWC8lCuNDXyzz1eg&s"
-                        alt="">
-                    <p>descirção</p>
-                </div>
+
+            </div>
+            <div class="container-final">
+                <a class="finalizar-compra" href="#">
+                    <img class="carrinho" src="./icones/compras-online.png" alt="Carrinho de compra">
+                    <p class="texto-final">Finalizar compra</p>
+
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <div class="container-rodape">
+        <div class="rodape-inicio">
+            <div class="titulo-logo">
+                <img class="icone-logo" src="./icones/_af67f5e2-2a4c-4c3a-bfb0-13601798e65e.png" alt="">
+                <h1 id="agencia">Box Course Agency</h1>
+            </div>
+            <p>
+                Nossa agência oferece diversos tipos de cursos, sempre atualizando nossos perfis nas nossa Redes
+                Sociais.
+                Conheça e acompanhe nossa agência em nossas redes socias e não perca as nossas novidades
+                e promoções</p>
+            <p id="redes">Nossas Redes Sociais</p>
+            <div class="icones">
+
+                <img src="./Redes Sociais Icones/insta.png" alt="Inatagram">
+                <img src="./Redes Sociais Icones/whatts.png" alt="whattsapp">
+                <img src="./Redes Sociais Icones/x.png" alt="X">
+            </div>
+        </div>
+        <div class="popular">
+            <h1 id="titulo-rodape-populares">Cursos Populares</h1>
+            <p>Inglês</p>
+            <p>Violão</p>
+            <p>Dança</p>
+            <p>Desenho</p>
+            <p>Excel</p>
+            <p>Nutrição</p>
+        </div>
+        <div class="categorias">
+            <h1 id="titulo-rodape-categorias">Categorias de Cursos</h1>
+            <p>Música</p>
+            <p>Idiomas</p>
+            <p>Culinária</p>
+            <p>Estudo Acadêmico</p>
+            <p>Programação</p>
+            <p>Pacote Office</p>
+        </div>
+        <div class="contato">
+            <h1 id="titulo-rodape-contato">Nosso Contato</h1>
+            <div class="contat">
+                <img class="icones" src="./icones/e-mail.png" alt="">
+                <p>suporteboxcourse@gmail.com</p>
+            </div>
+            <div class="contat">
+                <img class="icones" src="./icones/telefone.png" alt="Telefone">
+                <p>(+55) 16 99123-4567</p>
             </div>
 
         </div>
     </div>
-    <section>
-        <div class="container-rodape">
-            <div class="rodape-inicio">
-                <div class="titulo-logo">
-                    <img class="icone-logo" src="./icones/_af67f5e2-2a4c-4c3a-bfb0-13601798e65e.png" alt="">
-                    <h1 id="agencia">Box Course Agency</h1>
-                </div>
-                <p>
-                    Nossa agência oferece diversos tipos de cursos, sempre atualizando nossos perfis nas nossa Redes
-                    Sociais.
-                    Conheça e acompanhe nossa agência em nossas redes socias e não perca as nossas novidades
-                    e promoções</p>
-                <p id="redes">Nossas Redes Sociais</p>
-                <div class="icones">
-
-                    <img src="./Redes Sociais Icones/insta.png" alt="Inatagram">
-                    <img src="./Redes Sociais Icones/whatts.png" alt="whattsapp">
-                    <img src="./Redes Sociais Icones/x.png" alt="X">
-                </div>
-            </div>
-            <div class="popular">
-                <h1 id="titulo-rodape-populares">Cursos Populares</h1>
-                <p>Inglês</p>
-                <p>Violão</p>
-                <p>Dança</p>
-                <p>Desenho</p>
-                <p>Excel</p>
-                <p>Nutrição</p>
-            </div>
-            <div class="categorias">
-                <h1 id="titulo-rodape-categorias">Categorias de Cursos</h1>
-                <p>Música</p>
-                <p>Idiomas</p>
-                <p>Culinária</p>
-                <p>Estudo Acadêmico</p>
-                <p>Programação</p>
-                <p>Pacote Office</p>
-            </div>
-            <div class="contato">
-                <h1 id="titulo-rodape-contato">Nosso Contato</h1>
-                <div class="contat">
-                    <img class="icones" src="./icones/e-mail.png" alt="">
-                    <p>suporteboxcourse@gmail.com</p>
-                </div>
-                <div class="contat">
-                    <img class="icones" src="./icones/telefone.png" alt="Telefone">
-                    <p>(+55) 16 99123-4567</p>
-                </div>
-
-            </div>
+    <div class="privacidade">
+        <div class="informa">
+            <img class="icone-info " src="./icones/informacoes.png" alt="">
+            <h1 id="titulo-priva">Copyright @ 2023 Star Learn is Proudly Powered by MhrTheme.</h1>
         </div>
-        <div class="privacidade">
-            <div class="informa">
-                <img class="icone-info " src="./icones/informacoes.png" alt="">
-                <h1 id="titulo-priva">Copyright @ 2023 Star Learn is Proudly Powered by MhrTheme.</h1>
-            </div>
-            <h1 id="titulo-privaci">Privacy Policy - Terms & Condition</h1>
-        </div>
+        <h1 id="titulo-privaci">Privacy Policy - Terms & Condition</h1>
+    </div>
     </section>
 
 </body>
