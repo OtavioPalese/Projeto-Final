@@ -121,3 +121,124 @@ font-family: "Oswald", sans-serif;
         height: 20px;
         padding: 15px;
     }
+    .container-rodape{
+        background-color: #D9D9D9 ;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+     
+        font-family: "Oswald", sans-serif; 
+    
+    }
+    .rodape-inicio{
+       text-align: start;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .icones :hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .icones{
+        width: 30px;
+        height: 45px;
+        display: flex;
+        justify-content: space-around;
+    margin-top: 10px;
+    
+    }
+    
+    #titulo-rodape-populares{
+        color: #63d0ff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #titulo-rodape-categorias{
+        color: #63d0ff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #titulo-rodape-contato{
+        color: #63d0ff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .privacidade{
+    background-color: #D9D9D9 ;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    align-items: center;
+    
+    
+    }
+    
+    #agencia{
+        font-size: 30px;
+       margin-bottom: 10px;
+       color: #63d0ff;
+    }
+    .contat{
+        display: flex;
+        align-items: center;
+    }
+    .contato{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contato img{
+        margin-right: 10px;
+    }
+    #redes{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .icone-logo{
+        height: 65px;
+        width: 65px;
+    }
+    .titulo-logo{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    #titulo-priva{
+        margin: 50px 0px 40px 0px;
+        font-size: 25px;
+    }
+    #titulo-privaci{
+        margin: 50px 35px 40px 0px;
+        font-size: 25px;
+    }
+    .informa{
+    
+        margin: 50px 0px 40px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icone-info{
+        margin-right: 20px;
+        height: 65px;
+        width: 65px;
+    
+    }
+    .campos{
+        margin-left: 25px;
+    }
+    .popular{
+        margin-top: 20px;
+    }
+    .popular p{
+        margin-bottom: 10px;
+        font-size:20px;
+    }
+    .categorias{
+        margin-top: 20px;
+    }
+    .categorias p{
+        
+        margin-bottom: 10px;
+        font-size:20px;
+    }   
