@@ -176,6 +176,7 @@
 }
 
 .politica-privacidade {
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,8 +220,15 @@
 }
 
 .detalhes-cursos {
+    margin-top: 5px;
     font-family: "Oswald", sans-serif;
     margin-right: 15px;
+}
+.detalhe-curso-escolhido{
+    font-family: "Oswald", sans-serif;
+    margin-top: 3px;
+    width: 170px;
+   
 }
 
 .preco-esquerda {
@@ -230,8 +238,8 @@
 
 #imagem-curso {
     height: 100px;
-    width: 200px;
-    margin: 20px 0px 20px 0px;
+    width: 150px;
+    margin: 10px 20px 20px 20px;
 }
 
 .preco-direita {
@@ -309,6 +317,7 @@
     justify-content: center;
     border: solid 3px #63d0ff;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .carrinho {
